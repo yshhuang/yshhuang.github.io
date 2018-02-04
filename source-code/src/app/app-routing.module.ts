@@ -4,10 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavComponent } from './global/nav/nav.component';
 import { HomeComponent } from './home/home/home.component';
 import { ProfileComponent } from './profile/profile/profile.component';
+import { SidebarComponent } from './blog/sidebar/sidebar.component';
 
 const homeRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'profile', component: ProfileComponent },
+    { path: 'blog', component: SidebarComponent },
 ];
 
 const routes: Routes = [
