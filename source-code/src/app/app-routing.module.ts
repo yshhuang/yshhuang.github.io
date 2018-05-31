@@ -5,11 +5,16 @@ import { NavComponent } from './global/nav/nav.component';
 import { HomeComponent } from './home/home/home.component';
 import { ProfileComponent } from './profile/profile/profile.component';
 import { SidebarComponent } from './blog/sidebar/sidebar.component';
+import { DashboardComponent } from './blog/dashboard/dashboard.component';
+
+const blogRoutes: Routes = [
+    { path: 'dashboard', component: DashboardComponent }
+];
 
 const homeRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'profile', component: ProfileComponent },
-    { path: 'blog', component: SidebarComponent },
+    { path: 'blog', component: SidebarComponent, children: blogRoutes },
 ];
 
 const routes: Routes = [
