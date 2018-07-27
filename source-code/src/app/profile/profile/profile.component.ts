@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
   convertedData: any;
 
   constructor() {
-    this.data = '### your markdown code';
+    this.data = 'https://github.com/hyschn/neo4j-guide/blob/master/shi-yong-an-li.md';
   }
 
   ngOnInit() {
