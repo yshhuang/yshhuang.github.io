@@ -15,7 +15,6 @@ export class ProfileComponent implements OnInit {
   blog: string;
 
   constructor(private appService: AppService) {
-    this.data = '### your markdown code';
   }
 
   ngOnInit() {
@@ -26,6 +25,7 @@ export class ProfileComponent implements OnInit {
     const that = this;
     this.appService.getFileContext('assets/blog/dashboard.md').then(data => {
       this.blog = data._body;
+      this.data = '### your markdown code';
       console.log(this.blog);
       const md = marked.setOptions({});
       this.convertedData = md.parse(this.blog);
