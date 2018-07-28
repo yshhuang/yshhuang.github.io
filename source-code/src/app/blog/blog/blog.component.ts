@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
+  page = 'list';
 
   constructor() { }
 

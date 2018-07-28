@@ -6,12 +6,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { BlogComponent } from './blog/blog.component';
 import { ArticleComponent } from './article/article.component';
+import { ArticleListComponent } from './article-list/article-list.component';
 
 @NgModule({
   imports: [
     CommonModule,
     AppRoutingModule
   ],
-  declarations: [SidebarComponent, DashboardComponent, BlogComponent, ArticleComponent]
+  declarations: [SidebarComponent, DashboardComponent, BlogComponent, ArticleComponent, ArticleListComponent]
 })
 export class BlogModule { }
