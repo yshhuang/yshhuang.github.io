@@ -4,12 +4,14 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { AppRoutingModule } from '../app-routing.module';
+import { BlogComponent } from './blog/blog.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   imports: [
     CommonModule,
     AppRoutingModule
   ],
-  declarations: [SidebarComponent, DashboardComponent]
+  declarations: [SidebarComponent, DashboardComponent, BlogComponent, ArticleComponent]
 })
 export class BlogModule { }
