@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { AppRoutingModule } from '../app-routing.module';
 import { BlogComponent } from './blog/blog.component';
@@ -13,6 +12,6 @@ import { ArticleListComponent } from './article-list/article-list.component';
     CommonModule,
     AppRoutingModule
   ],
-  declarations: [SidebarComponent, DashboardComponent, BlogComponent, ArticleComponent, ArticleListComponent]
+  declarations: [SidebarComponent, BlogComponent, ArticleComponent, ArticleListComponent]
 })
 export class BlogModule { }

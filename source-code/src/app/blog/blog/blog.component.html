@@ -1,6 +1,7 @@
 <div class="container">
     <div class="row">
-        <blog-sidebar></blog-sidebar>
-        <article class="col-md-3 ml-sm-auto col-lg-10 pt-3 px-4"></article>
+        <blog-sidebar [(topic)]=topic></blog-sidebar>
+        <article-list class="col-md-3 ml-sm-auto col-lg-10 pt-3 px-4" *ngIf="title==''" [topic]=topic></article-list>
+        <article *ngIf="title!=''" class="col-md-3 ml-sm-auto col-lg-10 pt-3 px-4"></article>
     </div>
 </div>

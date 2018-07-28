@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+
 
 @Component({
   selector: 'blog',
@@ -6,11 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-  page = 'list';
+  topic = '';
+  title = '';
 
-  constructor() { }
+  constructor(private router: Router, private route: ActivatedRoute, ) { }
 
   ngOnInit() {
+    this.topic = this.route.snapshot.params['topic'];
   }
 
 }

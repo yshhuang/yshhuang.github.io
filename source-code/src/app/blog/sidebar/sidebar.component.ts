@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
+import { EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'blog-sidebar',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
+  @Input()
+  topic: string;
+  @Output()
+  topicChange = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  changeTopic(topic) {
+    this.topic = topic;
+    this.topicChange.emit(this.topic);
+  }
 }
