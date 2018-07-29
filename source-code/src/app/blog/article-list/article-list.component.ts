@@ -38,8 +38,9 @@ export class ArticleListComponent implements OnInit, OnChanges {
     }
   }
 
-  changeArtcile(article) {
+  changeArticle(article) {
     this.article = article;
+    console.log(this.article);
     this.articleChange.emit(this.article);
   }
 }

@@ -25,7 +25,10 @@ export class BlogComponent implements OnInit, OnChanges {
   resetRouteParams() {
     this.topic = this.route.snapshot.params['topic'];
     this.article = this.route.snapshot.params['article'];
+    console.log(this.article + '=======');
+
     this.filePath = 'assets/blog/' + this.topic + '/' + this.article + '.md';
+    console.log(this.article + '=======');
   }
 
 }
