@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
   @Input()
-  filePath = 'assets/blog/dashboard.md';
+  filePath: string;
   constructor() { }
 
   ngOnInit() {

@@ -10,7 +10,6 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(1111111111);
   }
 
 }

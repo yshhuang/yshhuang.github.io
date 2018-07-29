@@ -11,6 +11,10 @@ export class SidebarComponent implements OnInit {
   topic: string;
   @Output()
   topicChange = new EventEmitter();
+  @Input()
+  article: string;
+  @Output()
+  articleChange = new EventEmitter();
 
   constructor() { }
 
@@ -20,5 +24,7 @@ export class SidebarComponent implements OnInit {
   changeTopic(topic) {
     this.topic = topic;
     this.topicChange.emit(this.topic);
+    this.article = null;
+    this.articleChange.emit(this.article);
   }
 }

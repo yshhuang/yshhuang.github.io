@@ -1,4 +1,3 @@
-<h4>{{topic}}</h4>
 <div class="list-group" *ngFor="let article of articles">
-    <a href="#" class="list-group-item">{{article}}</a>
+    <a [routerLink]="['/blog',{topic:topic,article:article}]" (click)="changeArticle()" class="list-group-item">{{article}}</a>
 </div>
