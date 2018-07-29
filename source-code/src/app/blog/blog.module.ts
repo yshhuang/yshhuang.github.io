@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MarkdownModule } from 'angular2-markdown';
+
 import { SidebarComponent } from './sidebar/sidebar.component';
 
 import { AppRoutingModule } from '../app-routing.module';
@@ -10,7 +12,8 @@ import { ArticleListComponent } from './article-list/article-list.component';
 @NgModule({
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MarkdownModule.forRoot(),
   ],
   declarations: [SidebarComponent, BlogComponent, ArticleComponent, ArticleListComponent]
 })

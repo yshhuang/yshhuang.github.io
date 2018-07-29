@@ -9,12 +9,14 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class BlogComponent implements OnInit {
   topic = '';
-  title = '';
+  article = '';
 
   constructor(private router: Router, private route: ActivatedRoute, ) { }
 
   ngOnInit() {
     this.topic = this.route.snapshot.params['topic'];
+    this.article = this.route.snapshot.params['article'];
+    console.log(this.article);
   }
 
 }

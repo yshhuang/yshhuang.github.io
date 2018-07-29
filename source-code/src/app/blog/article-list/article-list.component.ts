@@ -1,4 +1,5 @@
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, Output } from '@angular/core';
+import { EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'article-list',
@@ -9,6 +10,10 @@ export class ArticleListComponent implements OnInit, OnChanges {
   @Input()
   topic: string;
   articles = [];
+  @Input()
+  article: string;
+  @Output()
+  articleChange = new EventEmitter();
 
   constructor() { }
 
@@ -31,5 +36,10 @@ export class ArticleListComponent implements OnInit, OnChanges {
       default:
         break;
     }
+  }
+
+  changeArtcile(article) {
+    this.article = article;
+    this.articleChange.emit(this.article);
   }
 }
