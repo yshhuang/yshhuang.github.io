@@ -2,8 +2,8 @@
     <div class="row">
         <blog-sidebar [(topic)]=topic [(article)]=article></blog-sidebar>
 
-        <article-list class="col-md-3 ml-sm-auto col-lg-10 pt-3 px-4" *ngIf="!article" [topic]=topic [(article)]=article></article-list>
+        <article-list class="col-md-3 ml-sm-auto col-lg-10 pt-3 px-4" *ngIf="!article" [(topic)]=topic [(article)]=article></article-list>
 
-        <article *ngIf="article" [filePath]=filePath class="col-md-3 ml-sm-auto col-lg-10 pt-3 px-4"></article>
+        <article *ngIf="article" [(filePath)]=filePath class="col-md-3 ml-sm-auto col-lg-10 pt-3 px-4"></article>
     </div>
 </div>
