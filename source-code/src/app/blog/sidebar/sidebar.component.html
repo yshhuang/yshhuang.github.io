@@ -11,24 +11,19 @@
                     Linux
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
+            <li class="nav-item" (click)="changeTopic('neo4j')">
+                <a class="nav-link" [routerLink]="['/blog',{topic:'neo4j'}]">
                     Neo4j
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Spring
+            <li class="nav-item" (click)="changeTopic('search-engine')">
+                <a class="nav-link" [routerLink]="['/blog',{topic:'search-engine'}]">
+                    Search_engine
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Angular
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                     Python
+            <li class="nav-item" (click)="changeTopic('nlp')">
+                <a class="nav-link" [routerLink]="['/blog',{topic:'nlp'}]">
+                    NLP
                 </a>
             </li>
         </ul>

@@ -33,6 +33,15 @@ export class ArticleListComponent implements OnInit, OnChanges {
       case 'linux':
         this.articles = ['commend'];
         break;
+      case 'neo4j':
+        this.articles = ['introduction'];
+        break;
+      case 'search-engine':
+        this.articles = ['介绍'];
+        break;
+      case 'nlp':
+        this.articles = ['introduction'];
+        break;
       default:
         break;
     }
