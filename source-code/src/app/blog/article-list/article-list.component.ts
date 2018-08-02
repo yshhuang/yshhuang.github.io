@@ -31,7 +31,7 @@ export class ArticleListComponent implements OnInit, OnChanges {
         this.articles = ['起源', '技术', '模块', '规划'];
         break;
       case 'linux':
-        this.articles = ['commend'];
+        this.articles = ['commend', 'shell'];
         break;
       case 'neo4j':
         this.articles = ['introduction'];
