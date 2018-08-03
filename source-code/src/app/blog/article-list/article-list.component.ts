@@ -28,7 +28,7 @@ export class ArticleListComponent implements OnInit, OnChanges {
   switchTopic() {
     switch (this.topic) {
       case 'about-this-site':
-        this.articles = ['起源', '技术', '模块', '规划'];
+        this.articles = ['起源', '技术', '模块', '规划', '发展历程'];
         break;
       case 'linux':
         this.articles = ['commend', 'shell'];
