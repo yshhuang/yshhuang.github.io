@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import 'prismjs/themes/prism-dark.css';
 
 import { AppRoutingModule } from './app-routing.module';
 import { GlobalModule } from './global/global.module';
