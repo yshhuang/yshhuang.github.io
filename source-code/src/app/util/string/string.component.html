@@ -1,0 +1,8 @@
+<div class="container">
+    <form class="form-horizontal">
+        <input type="text" [(ngModel)]="a" name=a>
+        <input type="text" [(ngModel)]="b" name=b>
+        <input type="text" [(ngModel)]="result" name=result>
+        <button class="btn btn-primary btn-default " (click)="result=editDistance(a,b)">计算</button>
+    </form>
+</div>
