@@ -8,6 +8,7 @@ import { HomeModule } from './home/home.module';
 import { ProfileModule } from './profile/profile.module';
 import { BlogModule } from './blog/blog.module';
 import { UtilModule } from './util/util.module';
+import { AitongModule } from './aitong/aitong.module';
 import { AppComponent } from './app.component';
 import { AppService } from './app.service';
 
@@ -19,7 +20,8 @@ import { AppService } from './app.service';
     HomeModule,
     ProfileModule,
     BlogModule,
-    UtilModule
+    UtilModule,
+    AitongModule,
   ],
   declarations: [
     AppComponent

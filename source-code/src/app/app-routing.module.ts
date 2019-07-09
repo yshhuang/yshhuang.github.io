@@ -6,12 +6,15 @@ import { HomeComponent } from './home/home/home.component';
 import { ProfileComponent } from './profile/profile/profile.component';
 import { BlogComponent } from './blog/blog/blog.component';
 import { StringComponent } from './util/string/string.component';
+import { AlbumComponent } from './aitong/album/album.component';
+import { PaintingComponent } from './aitong/painting/painting.component';
 
 const homeRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'profile', component: ProfileComponent },
     { path: 'blog', component: BlogComponent },
     { path: 'string', component: StringComponent },
+    { path: 'painting', component: PaintingComponent },
 ];
 
 const routes: Routes = [

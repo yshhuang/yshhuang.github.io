@@ -13,6 +13,168 @@ webpackEmptyAsyncContext.id = "../../../../../src/$$_gendir lazy recursive";
 
 /***/ }),
 
+/***/ "../../../../../src/app/aitong/aitong.module.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AitongModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ng_bootstrap_ng_bootstrap__ = __webpack_require__("../../../../@ng-bootstrap/ng-bootstrap/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__album_album_component__ = __webpack_require__("../../../../../src/app/aitong/album/album.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__painting_painting_component__ = __webpack_require__("../../../../../src/app/aitong/painting/painting.component.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var AitongModule = (function () {
+    function AitongModule() {
+    }
+    return AitongModule;
+}());
+AitongModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgModule */])({
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
+            __WEBPACK_IMPORTED_MODULE_2__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */].forRoot()
+        ],
+        declarations: [__WEBPACK_IMPORTED_MODULE_3__album_album_component__["a" /* AlbumComponent */], __WEBPACK_IMPORTED_MODULE_4__painting_painting_component__["a" /* PaintingComponent */]]
+    })
+], AitongModule);
+
+//# sourceMappingURL=aitong.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/aitong/album/album.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/aitong/album/album.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  album works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/aitong/album/album.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlbumComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AlbumComponent = (function () {
+    function AlbumComponent() {
+    }
+    AlbumComponent.prototype.ngOnInit = function () {
+    };
+    return AlbumComponent;
+}());
+AlbumComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-album',
+        template: __webpack_require__("../../../../../src/app/aitong/album/album.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/aitong/album/album.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], AlbumComponent);
+
+//# sourceMappingURL=album.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/aitong/painting/painting.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"page-section portfolio\" id=\"portfolio\">\n  <div class=\"container\">\n\n    <!-- Portfolio Section Heading -->\n    <h2 class=\"page-section-heading text-center text-uppercase text-secondary\n      mb-0\">绘画</h2>\n\n    <!-- Icon Divider -->\n    <!-- <div class=\"divider-custom\">\n      <div class=\"divider-custom-line\"></div>\n      <div class=\"divider-custom-icon\">\n        <i class=\"fas fa-star\"></i>\n      </div>\n      <div class=\"divider-custom-line\"></div>\n    </div> -->\n    <!-- Portfolio Grid Items -->\n    <div class=\"row\">\n\n      <!-- Portfolio Item 1 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal1\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 2 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal2\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 3 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal3\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 4 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal4\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 5 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal5\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 6 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal6\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n    </div>\n    <!-- /.row -->\n\n  </div>\n</section>\n\n<div class=\"section\" id=\"carousel\">\n  <div class=\"container\">\n    <div class=\"tim-title\">\n      <h3>Carousel</h3>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-8 mr-auto ml-auto\">\n        <div class=\"card page-carousel\">\n          <ngb-carousel>\n            <ng-template ngbSlide>\n              <img\n                src=\"../../../assets/img/yys/shishen/SSR/大天狗/before-awake.png\"\n                alt=\"Random\n                first\n                slide\">\n              <div class=\"carousel-caption\">\n                <p>大天狗</p>\n              </div>\n            </ng-template>\n            <ng-template ngbSlide>\n              <img src=\"../../../assets/img/yys/shishen/SSR/妖刀姬/skin-1.png\"\n                alt=\"Random\n                second\n                slide\">\n              <div class=\"carousel-caption\">\n                <p>妖刀姬</p>\n              </div>\n            </ng-template>\n            <ng-template ngbSlide>\n              <img src=\"../../../assets/img/yys/shishen/SSR/花鸟卷/skin-2.png\"\n                alt=\"花鸟卷\">\n              <div class=\"carousel-caption\">\n                <p>花鸟卷</p>\n              </div>\n            </ng-template>\n          </ngb-carousel>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/aitong/painting/painting.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/aitong/painting/painting.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PaintingComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PaintingComponent = (function () {
+    function PaintingComponent() {
+    }
+    PaintingComponent.prototype.ngOnInit = function () {
+    };
+    return PaintingComponent;
+}());
+PaintingComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-painting',
+        template: __webpack_require__("../../../../../src/app/aitong/painting/painting.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/aitong/painting/painting.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], PaintingComponent);
+
+//# sourceMappingURL=painting.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/app-routing.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -25,6 +187,7 @@ webpackEmptyAsyncContext.id = "../../../../../src/$$_gendir lazy recursive";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__profile_profile_profile_component__ = __webpack_require__("../../../../../src/app/profile/profile/profile.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__blog_blog_blog_component__ = __webpack_require__("../../../../../src/app/blog/blog/blog.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util_string_string_component__ = __webpack_require__("../../../../../src/app/util/string/string.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__aitong_painting_painting_component__ = __webpack_require__("../../../../../src/app/aitong/painting/painting.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,11 +201,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var homeRoutes = [
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_3__home_home_home_component__["a" /* HomeComponent */] },
     { path: 'profile', component: __WEBPACK_IMPORTED_MODULE_4__profile_profile_profile_component__["a" /* ProfileComponent */] },
     { path: 'blog', component: __WEBPACK_IMPORTED_MODULE_5__blog_blog_blog_component__["a" /* BlogComponent */] },
     { path: 'string', component: __WEBPACK_IMPORTED_MODULE_6__util_string_string_component__["a" /* StringComponent */] },
+    { path: 'painting', component: __WEBPACK_IMPORTED_MODULE_7__aitong_painting_painting_component__["a" /* PaintingComponent */] },
 ];
 var routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -109,14 +274,16 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__profile_profile_module__ = __webpack_require__("../../../../../src/app/profile/profile.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blog_blog_module__ = __webpack_require__("../../../../../src/app/blog/blog.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util_util_module__ = __webpack_require__("../../../../../src/app/util/util.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_service__ = __webpack_require__("../../../../../src/app/app.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__aitong_aitong_module__ = __webpack_require__("../../../../../src/app/aitong/aitong.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_service__ = __webpack_require__("../../../../../src/app/app.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -142,13 +309,14 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__home_home_module__["a" /* HomeModule */],
             __WEBPACK_IMPORTED_MODULE_6__profile_profile_module__["a" /* ProfileModule */],
             __WEBPACK_IMPORTED_MODULE_7__blog_blog_module__["a" /* BlogModule */],
-            __WEBPACK_IMPORTED_MODULE_8__util_util_module__["a" /* UtilModule */]
+            __WEBPACK_IMPORTED_MODULE_8__util_util_module__["a" /* UtilModule */],
+            __WEBPACK_IMPORTED_MODULE_9__aitong_aitong_module__["a" /* AitongModule */],
         ],
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */]
+            __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */]
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_10__app_service__["a" /* AppService */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */]]
+        providers: [__WEBPACK_IMPORTED_MODULE_11__app_service__["a" /* AppService */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -651,7 +819,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/global/nav/nav.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n    <div class=\"nav-scroller py-1 mb-2\">\n        <nav class=\"nav d-flex justify-content-between\">\n            <a class=\"nav-link active\" [routerLink]=\"['/home']\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-home\">\n                    <path d=\"M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"></path>\n                    <polyline points=\"9 22 9 12 15 12 15 22\"></polyline>\n                </svg> Home</a>\n            <a class=\"nav-link\" [routerLink]=\"['/profile']\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-users\">\n                    <path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path>\n                    <circle cx=\"9\" cy=\"7\" r=\"4\"></circle>\n                    <path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path>\n                    <path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path>\n                </svg> Profile</a>\n            <a class=\"nav-link\" [routerLink]=\"['/blog',{topic:'about-this-site'}]\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-file-text\">\n                    <path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"></path>\n                    <polyline points=\"14 2 14 8 20 8\"></polyline>\n                    <line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\"></line>\n                    <line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\"></line>\n                    <polyline points=\"10 9 9 9 8 9\"></polyline>\n                </svg> Blog</a>\n\n        </nav>\n    </div>\n</div>\n<router-outlet></router-outlet>"
+module.exports = "<nav class=\"navbar navbar-expand-lg fixed-top navbar-transparent\"\n    color-on-scroll=\"500\">\n    <div class=\"container\">\n        <div class=\"navbar-translate\">\n            <a class=\"navbar-brand\" href=\"https://www.yshhuang.top\">自由之翼</a>\n            <button class=\"navbar-toggler navbar-burger\" type=\"button\"\n                data-toggle=\"collapse\" data-target=\"#navbarToggler\"\n                aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\"\n                aria-label=\"Toggle navigation\" (click)=\"sidebarToggle()\">\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n            </button>\n        </div>\n        <div class=\"navbar-collapse\" id=\"navbarToggler\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Follow us on\n                        Twitter\" data-placement=\"bottom\"\n                        href=\"https://twitter.com/yshhuang1\" target=\"_blank\">\n                        <i class=\"fa fa-twitter\"></i>\n                        <p class=\"d-lg-none\">Twitter</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Like us on\n                        Facebook\" data-placement=\"bottom\"\n                        href=\"https://www.facebook.com/yshhuang\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-facebook-square\"></i>\n                        <p class=\"d-lg-none\">Facebook</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Follow us on\n                        Instagram\" data-placement=\"bottom\"\n                        href=\"https://www.instagram.com/CreativeTimOfficial\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-instagram\"></i>\n                        <p class=\"d-lg-none\">Instagram</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Star on GitHub\"\n                        data-placement=\"bottom\"\n                        href=\"https://github.com/yshhuang/yshhuang.github.io\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-github\"></i>\n                        <p class=\"d-lg-none\">GitHub</p>\n                    </a>\n                </li>\n                <!-- <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a\n                        href=\"http://pk2-angular.creative-tim.com/documentation/tutorial\"\n                        class=\"nav-link\" target=\"_blank\"><i class=\"nc-icon\n                            nc-book-bookmark\"></i> Documentation</a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"isHome()\">\n                    <a\n                        href=\"https://www.creative-tim.com/product/paper-kit-2-pro-angular?ref=pk2-angular-free-local\"\n                        target=\"_blank\" class=\"btn btn-danger btn-round\">Upgrade\n                        to Pro</a>\n                </li> -->\n                <li class=\"nav-item\" *ngIf=\"!isHome()\">\n                    <a [routerLink]=\"['/home']\" *ngIf=\"!isDocumentation()\"\n                        class=\"nav-link\"><i class=\"nc-icon nc-layout-11\"></i>Components</a>\n                    <a [routerLink]=\"['/home']\" *ngIf=\"isDocumentation()\"\n                        class=\"nav-link\">Back to Kit</a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"isDocumentation()\">\n                    <a\n                        href=\"https://github.com/yshhuang/yshhuang.github.io/issues?ref=pk2-free-local\"\n                        target=\"_blank\" class=\"nav-link\">Have an issue</a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -661,6 +829,7 @@ module.exports = "<div class=\"container\">\n    <div class=\"nav-scroller py-1 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -671,10 +840,62 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var NavComponent = (function () {
-    function NavComponent() {
+    function NavComponent(location, element) {
+        this.location = location;
+        this.element = element;
+        this.sidebarVisible = false;
     }
     NavComponent.prototype.ngOnInit = function () {
+        var navbar = this.element.nativeElement;
+        this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
+    };
+    NavComponent.prototype.sidebarOpen = function () {
+        var toggleButton = this.toggleButton;
+        var html = document.getElementsByTagName('html')[0];
+        // console.log(html);
+        // console.log(toggleButton, 'toggle');
+        setTimeout(function () {
+            toggleButton.classList.add('toggled');
+        }, 500);
+        html.classList.add('nav-open');
+        this.sidebarVisible = true;
+    };
+    NavComponent.prototype.sidebarClose = function () {
+        var html = document.getElementsByTagName('html')[0];
+        // console.log(html);
+        this.toggleButton.classList.remove('toggled');
+        this.sidebarVisible = false;
+        html.classList.remove('nav-open');
+    };
+    NavComponent.prototype.sidebarToggle = function () {
+        // const toggleButton = this.toggleButton;
+        // const body = document.getElementsByTagName('body')[0];
+        if (this.sidebarVisible === false) {
+            this.sidebarOpen();
+        }
+        else {
+            this.sidebarClose();
+        }
+    };
+    NavComponent.prototype.isHome = function () {
+        var titlee = this.location.prepareExternalUrl(this.location.path());
+        if (titlee === '/home') {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    NavComponent.prototype.isDocumentation = function () {
+        var titlee = this.location.prepareExternalUrl(this.location.path());
+        if (titlee === '/documentation') {
+            return true;
+        }
+        else {
+            return false;
+        }
     };
     return NavComponent;
 }());
@@ -684,9 +905,10 @@ NavComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/global/nav/nav.component.html"),
         styles: [__webpack_require__("../../../../../src/app/global/nav/nav.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ElementRef */]) === "function" && _b || Object])
 ], NavComponent);
 
+var _a, _b;
 //# sourceMappingURL=nav.component.js.map
 
 /***/ }),
@@ -750,7 +972,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/home/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n\n    <div class=\"jumbotron p-3 p-md-5 text-white rounded bg-dark\">\n        <div class=\"col-md-6 px-0\">\n            <h1 class=\"display-4 font-italic\">为什么要搭建这个网站？</h1>\n            <p class=\"lead my-3\">严格意义上来说，这不是一个网站，因为是借助了<a href=\"https://pages.github.com/\">GitHub Pages</a>构建的一些静态页面。 首先，我觉得所有人的技术水平积累到一定程度之后都会有写博客的冲动……\n            </p>\n            <p class=\"lead mb-0\"><a [routerLink]=\"['/blog',{topic:'about-this-site',article:'起源'}]\" class=\"text-white font-weight-bold\">Continue reading...</a></p>\n        </div>\n    </div>\n\n    <div class=\"row mb-2\">\n        <div class=\"col-md-6\">\n            <div class=\"card flex-md-row mb-4 box-shadow h-md-250\">\n                <div class=\"card-body d-flex flex-column align-items-start\">\n                    <strong class=\"d-inline-block mb-2 text-primary\">Linux</strong>\n                    <h3 class=\"mb-0\">\n                        <a class=\"text-dark\" [routerLink]=\"['/blog',{topic:'linux',article:'commend'}]\">Linux命令行</a>\n                    </h3><br/>\n                    <!-- <div class=\"mb-1 text-muted\">Nov 12</div> -->\n                    <p class=\"card-text mb-auto\">Linux是自由的，“自由”是一种权力，它决定你的计算机能做什么，同时能够拥有这种“自由”的唯一方式就是知道计算机正在做什么……</p>\n                    <a [routerLink]=\"['/blog',{topic:'linux',article:'commend'}]\">Continue reading</a>\n                </div>\n                <img class=\"card-img-right flex-auto d-none d-md-block\" data-src=\"holder.js/200x250?theme=thumb\" alt=\"自由之翼 [200x250]\" style=\"width: 200px; height: 250px;\" src=\"data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1615fbb9775%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1615fbb9775%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22131%22%3E自由之翼%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E\"\n                    data-holder-rendered=\"true\">\n            </div>\n        </div>\n        <div class=\"col-md-6\">\n            <div class=\"card flex-md-row mb-4 box-shadow h-md-250\">\n                <div class=\"card-body d-flex flex-column align-items-start\">\n                    <strong class=\"d-inline-block mb-2 text-success\">Neo4j</strong>\n                    <h3 class=\"mb-0\">\n                        <a class=\"text-dark\" [routerLink]=\"['/blog',{topic:'neo4j',article:'introduction'}]\">图数据库简介</a>\n                    </h3><br/>\n                    <!-- <div class=\"mb-1 text-muted\">Nov 11</div> -->\n                    <p class=\"card-text mb-auto\">图数据库的实现和应用都是基于图模型,但是学习图数据库并不需要理解复杂的<a href=\"https://en.wikipedia.org/wiki/Graph_theory\">图论</a>知识.相较于关系型数据库(RDBMS),图的模型理解起来更加直观……</p>\n                    <a [routerLink]=\"['/blog',{topic:'neo4j',article:'introduction'}]\">Continue reading</a>\n                </div>\n                <img class=\"card-img-right flex-auto d-none d-md-block\" data-src=\"holder.js/200x250?theme=thumb\" alt=\"自由之翼 [200x250]\" src=\"data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1615fbb9779%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1615fbb9779%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22131%22%3E自由之翼%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E\"\n                    data-holder-rendered=\"true\" style=\"width: 200px; height: 250px;\">\n            </div>\n        </div>\n    </div>\n\n</div>"
+module.exports = "<div class=\"page-header\" data-parallax=\"true\" style=\"background-image:\n    url('./assets/img/daniel-olahh.jpg');\">\n    <div class=\"filter\"></div>\n    <div class=\"container\">\n        <div class=\"motto text-center\">\n            <h1>涉江而过，芙蓉千朵。诗也简单，心也简单。 </h1>\n            <h3>——席慕蓉</h3>\n            <br />\n            <!-- <a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" class=\"btn\n                btn-outline-neutral btn-round\"><i class=\"fa fa-play\"></i>Watch\n                video</a>\n            <button type=\"button\" class=\"btn btn-outline-neutral btn-round\">Download</button> -->\n        </div>\n    </div>\n</div>\n<div class=\"main\">\n    <div class=\"section text-center\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-8 mr-auto ml-auto\">\n                    <h2 class=\"title\">关于本站</h2>\n                    <h5 class=\"description\">This is the paragraph where you can\n                        write more details about your product. Keep you user\n                        engaged by providing meaningful information. Remember\n                        that by this time, the user is curious, otherwise he\n                        wouldn't scroll to get here. Add a button if you want\n                        the user to see more.</h5>\n                    <br>\n                    <a href=\"#paper-kit\" class=\"btn btn-danger btn-round\">See\n                        Details</a>\n                </div>\n            </div>\n            <br/><br/>\n                    <div class=\"row\">\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-paper\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">博客</h4>\n                                    <p class=\"description\">Spend your time\n                                        generating new ideas. You don't have to\n                                        think of implementing.</p>\n                                    <a href=\"https://blog.yshhuang.top/\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-image\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">绘画</h4>\n                                    <p>Larger, yet dramatically thinner. More\n                                        powerful, but remarkably power\n                                        efficient.</p>\n                                    <a href=\"painting\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-bag-16\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">Statistics</h4>\n                                    <p>Choose from a veriety of many colors\n                                        resembling sugar paper pastels.</p>\n                                    <a href=\"#pkp\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-zoom-split\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">Delightful design</h4>\n                                    <p>Find unique and handmade delightful\n                                        designs related items directly from our\n                                        sellers.</p>\n                                    <a href=\"#pkp\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"section section-dark text-center\">\n                <div class=\"container\">\n                    <h2 class=\"title\">关于作者</h2>\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/clem-onojeghuo-3.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Henry Ford</h4>\n                                            <h6 class=\"card-category\">Product\n                                                Manager</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        Teamwork is so important that it is\n                                        virtually impossible for you to reach\n                                        the heights of your capabilities or make\n                                        the money that you want without becoming\n                                        very good at it.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/joe-gardner-2.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Sophie West</h4>\n                                            <h6 class=\"card-category\">Designer</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        A group becomes a team when each member\n                                        is sure enough of himself and his\n                                        contribution to praise the skill of the\n                                        others. No one can whistle a symphony.\n                                        It takes an orchestra to play it.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/erik-lucatero-2.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Robert Orben</h4>\n                                            <h6 class=\"card-category\">Developer</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        The strength of the team is each\n                                        individual member. The strength of each\n                                        member is the team. If you can laugh\n                                        together, you can work together, silence\n                                        isn’t golden, it’s deadly.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"section landing-section\">\n                <div class=\"container\">\n                    <div class=\"row\">\n                        <div class=\"col-md-8 mr-auto ml-auto\">\n                            <h2 class=\"text-center\">Keep in touch?</h2>\n                            <form class=\"contact-form\">\n                                <div class=\"row\">\n                                    <div class=\"col-md-6\">\n                                        <label>Name</label>\n                                        <div class=\"input-group\"\n                                            [ngClass]=\"{'input-group-focus':focus===true}\">\n                                            <div class=\"input-group-prepend\">\n                                                <span class=\"input-group-text\"><i\n                                                        class=\"nc-icon\n                                                        nc-single-02\"></i></span>\n                                            </div>\n                                            <input type=\"text\"\n                                                class=\"form-control\"\n                                                placeholder=\"Name\"\n                                                (focus)=\"focus=true\"\n                                                (blur)=\"focus=false\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-md-6\">\n                                        <label>Email</label>\n                                        <div class=\"input-group\"\n                                            [ngClass]=\"{'input-group-focus':focus1===true}\">\n                                            <div class=\"input-group-prepend\">\n                                                <span class=\"input-group-text\">\n                                                    <i class=\"nc-icon\n                                                        nc-email-85\"></i></span>\n                                            </div>\n                                            <input type=\"text\"\n                                                class=\"form-control\"\n                                                placeholder=\"Email\"\n                                                (focus)=\"focus1=true\"\n                                                (blur)=\"focus1=false\">\n                                        </div>\n                                    </div>\n                                </div>\n                                <label>Message</label>\n                                <textarea class=\"form-control\" rows=\"4\"\n                                    placeholder=\"Tell us your thoughts and\n                                    feelings...\"></textarea>\n                                <div class=\"row\">\n                                    <div class=\"col-md-4 mr-auto ml-auto\">\n                                        <button class=\"btn btn-danger btn-lg\n                                            btn-fill\">Send Message</button>\n                                    </div>\n                                </div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n"
 
 /***/ }),
 
@@ -1142,13 +1364,8 @@ UtilComponent = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: false
+    production: true
 };
 //# sourceMappingURL=environment.js.map
 
