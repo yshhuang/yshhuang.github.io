@@ -1,45 +1,270 @@
-<div class="container">
-
-    <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-        <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">为什么要搭建这个网站？</h1>
-            <p class="lead my-3">严格意义上来说，这不是一个网站，因为是借助了<a href="https://pages.github.com/">GitHub Pages</a>构建的一些静态页面。 首先，我觉得所有人的技术水平积累到一定程度之后都会有写博客的冲动……
-            </p>
-            <p class="lead mb-0"><a [routerLink]="['/blog',{topic:'about-this-site',article:'起源'}]" class="text-white font-weight-bold">Continue reading...</a></p>
+<div class="page-header" data-parallax="true" style="background-image:
+    url('./assets/img/daniel-olahh.jpg');">
+    <div class="filter"></div>
+    <div class="container">
+        <div class="motto text-center">
+            <h1>涉江而过，芙蓉千朵。诗也简单，心也简单。 </h1>
+            <h3>——席慕蓉</h3>
+            <br />
+            <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn
+                btn-outline-neutral btn-round"><i class="fa fa-play"></i>Watch
+                video</a>
+            <button type="button" class="btn btn-outline-neutral btn-round">Download</button> -->
         </div>
     </div>
-
-    <div class="row mb-2">
-        <div class="col-md-6">
-            <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-primary">Linux</strong>
-                    <h3 class="mb-0">
-                        <a class="text-dark" [routerLink]="['/blog',{topic:'linux',article:'commend'}]">Linux命令行</a>
-                    </h3><br/>
-                    <!-- <div class="mb-1 text-muted">Nov 12</div> -->
-                    <p class="card-text mb-auto">Linux是自由的，“自由”是一种权力，它决定你的计算机能做什么，同时能够拥有这种“自由”的唯一方式就是知道计算机正在做什么……</p>
-                    <a [routerLink]="['/blog',{topic:'linux',article:'commend'}]">Continue reading</a>
-                </div>
-                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="自由之翼 [200x250]" style="width: 200px; height: 250px;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1615fbb9775%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1615fbb9775%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22131%22%3E自由之翼%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-                    data-holder-rendered="true">
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-success">Neo4j</strong>
-                    <h3 class="mb-0">
-                        <a class="text-dark" [routerLink]="['/blog',{topic:'neo4j',article:'introduction'}]">图数据库简介</a>
-                    </h3><br/>
-                    <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-                    <p class="card-text mb-auto">图数据库的实现和应用都是基于图模型,但是学习图数据库并不需要理解复杂的<a href="https://en.wikipedia.org/wiki/Graph_theory">图论</a>知识.相较于关系型数据库(RDBMS),图的模型理解起来更加直观……</p>
-                    <a [routerLink]="['/blog',{topic:'neo4j',article:'introduction'}]">Continue reading</a>
-                </div>
-                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="自由之翼 [200x250]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1615fbb9779%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1615fbb9779%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.203125%22%20y%3D%22131%22%3E自由之翼%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-                    data-holder-rendered="true" style="width: 200px; height: 250px;">
-            </div>
-        </div>
-    </div>
-
 </div>
+<div class="main">
+    <div class="section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mr-auto ml-auto">
+                    <h2 class="title">关于本站</h2>
+                    <h5 class="description">This is the paragraph where you can
+                        write more details about your product. Keep you user
+                        engaged by providing meaningful information. Remember
+                        that by this time, the user is curious, otherwise he
+                        wouldn't scroll to get here. Add a button if you want
+                        the user to see more.</h5>
+                    <br>
+                    <a href="#paper-kit" class="btn btn-danger btn-round">See
+                        Details</a>
+                </div>
+            </div>
+            <br/><br/>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-album-2"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Beautiful Gallery</h4>
+                                    <p class="description">Spend your time
+                                        generating new ideas. You don't have to
+                                        think of implementing.</p>
+                                    <a href="#pkp" class="btn btn-link
+                                        btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-bulb-63"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">New Ideas</h4>
+                                    <p>Larger, yet dramatically thinner. More
+                                        powerful, but remarkably power
+                                        efficient.</p>
+                                    <a href="#pkp" class="btn btn-link
+                                        btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-chart-bar-32"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Statistics</h4>
+                                    <p>Choose from a veriety of many colors
+                                        resembling sugar paper pastels.</p>
+                                    <a href="#pkp" class="btn btn-link
+                                        btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="nc-icon nc-sun-fog-29"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Delightful design</h4>
+                                    <p>Find unique and handmade delightful
+                                        designs related items directly from our
+                                        sellers.</p>
+                                    <a href="#pkp" class="btn btn-link
+                                        btn-danger">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section section-dark text-center">
+                <div class="container">
+                    <h2 class="title">关于作者</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-profile card-plain">
+                                <div class="card-avatar">
+                                    <a href="#avatar"><img
+                                            src="./assets/img/faces/clem-onojeghuo-3.jpg"
+                                            alt="..."></a>
+                                </div>
+                                <div class="card-block">
+                                    <a href="#paper-kit">
+                                        <div class="author">
+                                            <h4 class="card-title">Henry Ford</h4>
+                                            <h6 class="card-category">Product
+                                                Manager</h6>
+                                        </div>
+                                    </a>
+                                    <p class="card-description text-center">
+                                        Teamwork is so important that it is
+                                        virtually impossible for you to reach
+                                        the heights of your capabilities or make
+                                        the money that you want without becoming
+                                        very good at it.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-twitter"></i></a>
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-google-plus"></i></a>
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card card-profile card-plain">
+                                <div class="card-avatar">
+                                    <a href="#avatar"><img
+                                            src="./assets/img/faces/joe-gardner-2.jpg"
+                                            alt="..."></a>
+                                </div>
+                                <div class="card-block">
+                                    <a href="#paper-kit">
+                                        <div class="author">
+                                            <h4 class="card-title">Sophie West</h4>
+                                            <h6 class="card-category">Designer</h6>
+                                        </div>
+                                    </a>
+                                    <p class="card-description text-center">
+                                        A group becomes a team when each member
+                                        is sure enough of himself and his
+                                        contribution to praise the skill of the
+                                        others. No one can whistle a symphony.
+                                        It takes an orchestra to play it.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-twitter"></i></a>
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-google-plus"></i></a>
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card card-profile card-plain">
+                                <div class="card-avatar">
+                                    <a href="#avatar"><img
+                                            src="./assets/img/faces/erik-lucatero-2.jpg"
+                                            alt="..."></a>
+                                </div>
+                                <div class="card-block">
+                                    <a href="#paper-kit">
+                                        <div class="author">
+                                            <h4 class="card-title">Robert Orben</h4>
+                                            <h6 class="card-category">Developer</h6>
+                                        </div>
+                                    </a>
+                                    <p class="card-description text-center">
+                                        The strength of the team is each
+                                        individual member. The strength of each
+                                        member is the team. If you can laugh
+                                        together, you can work together, silence
+                                        isn’t golden, it’s deadly.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-twitter"></i></a>
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-google-plus"></i></a>
+                                    <a href="#pablo" class="btn btn-link
+                                        btn-just-icon btn-neutral"><i class="fa
+                                            fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section landing-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h2 class="text-center">Keep in touch?</h2>
+                            <form class="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Name</label>
+                                        <div class="input-group"
+                                            [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i
+                                                        class="nc-icon
+                                                        nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text"
+                                                class="form-control"
+                                                placeholder="Name"
+                                                (focus)="focus=true"
+                                                (blur)="focus=false">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Email</label>
+                                        <div class="input-group"
+                                            [ngClass]="{'input-group-focus':focus1===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="nc-icon
+                                                        nc-email-85"></i></span>
+                                            </div>
+                                            <input type="text"
+                                                class="form-control"
+                                                placeholder="Email"
+                                                (focus)="focus1=true"
+                                                (blur)="focus1=false">
+                                        </div>
+                                    </div>
+                                </div>
+                                <label>Message</label>
+                                <textarea class="form-control" rows="4"
+                                    placeholder="Tell us your thoughts and
+                                    feelings..."></textarea>
+                                <div class="row">
+                                    <div class="col-md-4 mr-auto ml-auto">
+                                        <button class="btn btn-danger btn-lg
+                                            btn-fill">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
