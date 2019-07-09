@@ -9,6 +9,7 @@ import { ProfileModule } from './profile/profile.module';
 import { BlogModule } from './blog/blog.module';
 import { UtilModule } from './util/util.module';
 import { AitongModule } from './aitong/aitong.module';
+import { EbookModule } from './ebook/ebook.module';
 import { AppComponent } from './app.component';
 import { AppService } from './app.service';
 
@@ -22,6 +23,7 @@ import { AppService } from './app.service';
     BlogModule,
     UtilModule,
     AitongModule,
+    EbookModule
   ],
   declarations: [
     AppComponent

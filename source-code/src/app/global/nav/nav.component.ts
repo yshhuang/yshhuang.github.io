@@ -11,7 +11,7 @@ export class NavComponent implements OnInit {
   private sidebarVisible: boolean;
 
   constructor(public location: Location, private element: ElementRef) {
-    this.sidebarVisible = false;
+    this.sidebarVisible = true;
   }
 
   ngOnInit() {
@@ -22,8 +22,8 @@ export class NavComponent implements OnInit {
   sidebarOpen() {
     const toggleButton = this.toggleButton;
     const html = document.getElementsByTagName('html')[0];
-    // console.log(html);
-    // console.log(toggleButton, 'toggle');
+    console.log(html);
+    console.log(toggleButton, 'toggle');
 
     setTimeout(function () {
       toggleButton.classList.add('toggled');
@@ -53,14 +53,6 @@ export class NavComponent implements OnInit {
     const titlee = this.location.prepareExternalUrl(this.location.path());
 
     if (titlee === '/home') {
-      return true;
-    } else {
-      return false;
-    }
-  }
-  isDocumentation() {
-    const titlee = this.location.prepareExternalUrl(this.location.path());
-    if (titlee === '/documentation') {
       return true;
     } else {
       return false;

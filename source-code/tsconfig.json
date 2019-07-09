@@ -1,5 +1,6 @@
 {
   "compileOnSave": false,
+  "experimentalDecorators": true,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "sourceMap": true,

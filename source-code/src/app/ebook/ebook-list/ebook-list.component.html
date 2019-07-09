@@ -1,0 +1,11 @@
+<div class="page-header" style="background-image:
+url('./assets/img/login-image.jpg');">
+
+<input [(ngModel)]="searchText" >
+<ul>
+  <li *ngFor="let c of characters | search : searchText">
+    {{c}}
+  </li>
+</ul>
+
+</div>

@@ -8,6 +8,7 @@ import { BlogComponent } from './blog/blog/blog.component';
 import { StringComponent } from './util/string/string.component';
 import { AlbumComponent } from './aitong/album/album.component';
 import { PaintingComponent } from './aitong/painting/painting.component';
+import { EbookListComponent } from './ebook/ebook-list/ebook-list.component';
 
 const homeRoutes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -15,6 +16,7 @@ const homeRoutes: Routes = [
     { path: 'blog', component: BlogComponent },
     { path: 'string', component: StringComponent },
     { path: 'painting', component: PaintingComponent },
+    { path: 'book/list', component: EbookListComponent }
 ];
 
 const routes: Routes = [
