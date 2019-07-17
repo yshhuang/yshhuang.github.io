@@ -117,7 +117,7 @@ AlbumComponent = __decorate([
 /***/ "../../../../../src/app/aitong/painting/painting.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"page-section portfolio\" id=\"portfolio\">\n  <div class=\"container\">\n\n    <!-- Portfolio Section Heading -->\n    <h2 class=\"page-section-heading text-center text-uppercase text-secondary\n      mb-0\">绘画</h2>\n\n    <!-- Icon Divider -->\n    <!-- <div class=\"divider-custom\">\n      <div class=\"divider-custom-line\"></div>\n      <div class=\"divider-custom-icon\">\n        <i class=\"fas fa-star\"></i>\n      </div>\n      <div class=\"divider-custom-line\"></div>\n    </div> -->\n    <!-- Portfolio Grid Items -->\n    <div class=\"row\">\n\n      <!-- Portfolio Item 1 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal1\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 2 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal2\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 3 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal3\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 4 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal4\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 5 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal5\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 6 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal6\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n    </div>\n    <!-- /.row -->\n\n  </div>\n</section>\n\n<div class=\"section\" id=\"carousel\">\n  <div class=\"container\">\n    <div class=\"tim-title\">\n      <h3>Carousel</h3>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-8 mr-auto ml-auto\">\n        <div class=\"card page-carousel\">\n          <ngb-carousel>\n            <ng-template ngbSlide>\n              <img\n                src=\"../../../assets/img/yys/shishen/SSR/大天狗/before-awake.png\"\n                alt=\"Random\n                first\n                slide\">\n              <div class=\"carousel-caption\">\n                <p>大天狗</p>\n              </div>\n            </ng-template>\n            <ng-template ngbSlide>\n              <img src=\"../../../assets/img/yys/shishen/SSR/妖刀姬/skin-1.png\"\n                alt=\"Random\n                second\n                slide\">\n              <div class=\"carousel-caption\">\n                <p>妖刀姬</p>\n              </div>\n            </ng-template>\n            <ng-template ngbSlide>\n              <img src=\"../../../assets/img/yys/shishen/SSR/花鸟卷/skin-2.png\"\n                alt=\"花鸟卷\">\n              <div class=\"carousel-caption\">\n                <p>花鸟卷</p>\n              </div>\n            </ng-template>\n          </ngb-carousel>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<section class=\"page-section portfolio\" id=\"portfolio\">\n  <div class=\"container\" >\n\n    <!-- Portfolio Section Heading -->\n    <h2 class=\"page-section-heading text-center text-uppercase text-secondary\n      mb-0\">绘画</h2>\n\n    <!-- Icon Divider -->\n    <!-- <div class=\"divider-custom\">\n      <div class=\"divider-custom-line\"></div>\n      <div class=\"divider-custom-icon\">\n        <i class=\"fas fa-star\"></i>\n      </div>\n      <div class=\"divider-custom-line\"></div>\n    </div> -->\n    <!-- Portfolio Grid Items -->\n    <div class=\"row\">\n\n      <!-- Portfolio Item 1 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal1\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 2 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal2\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 3 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal3\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG50.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 4 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal4\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 5 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal5\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n      <!-- Portfolio Item 6 -->\n      <div class=\"col-md-6 col-lg-4\">\n        <div class=\"portfolio-item mx-auto\" data-toggle=\"modal\"\n          data-target=\"#portfolioModal6\">\n          <div class=\"portfolio-item-caption d-flex align-items-center\n            justify-content-center h-100 w-100\">\n            <div class=\"portfolio-item-caption-content text-center text-white\">\n              <i class=\"fas fa-plus fa-3x\"></i>\n            </div>\n          </div>\n          <img class=\"img-fluid\" src=\"../../../assets/img/WechatIMG51.jpeg\"\n            alt=\"大天狗\">\n        </div>\n      </div>\n\n    </div>\n    <!-- /.row -->\n\n  </div>\n</section>\n\n<div class=\"section\" id=\"carousel\">\n  <div class=\"container\">\n    <div class=\"tim-title\">\n      <h3>Carousel</h3>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-8 mr-auto ml-auto\">\n        <div class=\"card page-carousel\">\n          <ngb-carousel>\n            <ng-template ngbSlide>\n              <img\n                src=\"../../../assets/img/yys/shishen/SSR/大天狗/before-awake.png\"\n                alt=\"Random\n                first\n                slide\">\n              <div class=\"carousel-caption\">\n                <p>大天狗</p>\n              </div>\n            </ng-template>\n            <ng-template ngbSlide>\n              <img src=\"../../../assets/img/yys/shishen/SSR/妖刀姬/skin-1.png\"\n                alt=\"Random\n                second\n                slide\">\n              <div class=\"carousel-caption\">\n                <p>妖刀姬</p>\n              </div>\n            </ng-template>\n            <ng-template ngbSlide>\n              <img src=\"../../../assets/img/yys/shishen/SSR/花鸟卷/skin-2.png\"\n                alt=\"花鸟卷\">\n              <div class=\"carousel-caption\">\n                <p>花鸟卷</p>\n              </div>\n            </ng-template>\n          </ngb-carousel>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -188,6 +188,7 @@ PaintingComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__blog_blog_blog_component__ = __webpack_require__("../../../../../src/app/blog/blog/blog.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util_string_string_component__ = __webpack_require__("../../../../../src/app/util/string/string.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__aitong_painting_painting_component__ = __webpack_require__("../../../../../src/app/aitong/painting/painting.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ebook_ebook_list_ebook_list_component__ = __webpack_require__("../../../../../src/app/ebook/ebook-list/ebook-list.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -202,12 +203,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var homeRoutes = [
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_3__home_home_home_component__["a" /* HomeComponent */] },
     { path: 'profile', component: __WEBPACK_IMPORTED_MODULE_4__profile_profile_profile_component__["a" /* ProfileComponent */] },
     { path: 'blog', component: __WEBPACK_IMPORTED_MODULE_5__blog_blog_blog_component__["a" /* BlogComponent */] },
     { path: 'string', component: __WEBPACK_IMPORTED_MODULE_6__util_string_string_component__["a" /* StringComponent */] },
     { path: 'painting', component: __WEBPACK_IMPORTED_MODULE_7__aitong_painting_painting_component__["a" /* PaintingComponent */] },
+    { path: 'book/list', component: __WEBPACK_IMPORTED_MODULE_8__ebook_ebook_list_ebook_list_component__["a" /* EbookListComponent */] }
 ];
 var routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -275,14 +278,16 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blog_blog_module__ = __webpack_require__("../../../../../src/app/blog/blog.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util_util_module__ = __webpack_require__("../../../../../src/app/util/util.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__aitong_aitong_module__ = __webpack_require__("../../../../../src/app/aitong/aitong.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_service__ = __webpack_require__("../../../../../src/app/app.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ebook_ebook_module__ = __webpack_require__("../../../../../src/app/ebook/ebook.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_service__ = __webpack_require__("../../../../../src/app/app.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -311,12 +316,13 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_7__blog_blog_module__["a" /* BlogModule */],
             __WEBPACK_IMPORTED_MODULE_8__util_util_module__["a" /* UtilModule */],
             __WEBPACK_IMPORTED_MODULE_9__aitong_aitong_module__["a" /* AitongModule */],
+            __WEBPACK_IMPORTED_MODULE_10__ebook_ebook_module__["a" /* EbookModule */]
         ],
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */]
+            __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */]
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_11__app_service__["a" /* AppService */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */]]
+        providers: [__WEBPACK_IMPORTED_MODULE_12__app_service__["a" /* AppService */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -760,6 +766,216 @@ SidebarComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/ebook/ebook-list/ebook-list.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"page-header\" style=\"background-image:\nurl('./assets/img/login-image.jpg');\">\n\n<input [(ngModel)]=\"searchText\" >\n<ul>\n  <li *ngFor=\"let c of characters | search : searchText\">\n    {{c}}\n  </li>\n</ul>\n\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/ebook/ebook-list/ebook-list.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/ebook/ebook-list/ebook-list.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EbookListComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ebook_service__ = __webpack_require__("../../../../../src/app/ebook/ebook.service.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var EbookListComponent = (function () {
+    function EbookListComponent(ebookservice) {
+        this.ebookservice = ebookservice;
+        this.searchText = '';
+        this.characters = [
+            'Finn the human',
+            'Jake the dog',
+            'Princess bubblegum',
+            'Lumpy Space Princess',
+            'Beemo1',
+            'Beemo2'
+        ];
+    }
+    EbookListComponent.prototype.ngOnInit = function () {
+        this.getCode();
+    };
+    EbookListComponent.prototype.getCode = function () {
+        this.ebookservice.getCode().then(function (code) {
+            console.log(code);
+        });
+    };
+    return EbookListComponent;
+}());
+EbookListComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-ebook-list',
+        template: __webpack_require__("../../../../../src/app/ebook/ebook-list/ebook-list.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/ebook/ebook-list/ebook-list.component.scss")]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ebook_service__["a" /* EbookService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ebook_service__["a" /* EbookService */]) === "function" && _a || Object])
+], EbookListComponent);
+
+var _a;
+//# sourceMappingURL=ebook-list.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/ebook/ebook.module.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EbookModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__global_filter_search__ = __webpack_require__("../../../../../src/app/global/filter/search.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ebook_list_ebook_list_component__ = __webpack_require__("../../../../../src/app/ebook/ebook-list/ebook-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ebook_service__ = __webpack_require__("../../../../../src/app/ebook/ebook.service.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var EbookModule = (function () {
+    function EbookModule() {
+    }
+    return EbookModule;
+}());
+EbookModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgModule */])({
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+        ],
+        providers: [__WEBPACK_IMPORTED_MODULE_5__ebook_service__["a" /* EbookService */]],
+        declarations: [__WEBPACK_IMPORTED_MODULE_4__ebook_list_ebook_list_component__["a" /* EbookListComponent */], __WEBPACK_IMPORTED_MODULE_3__global_filter_search__["a" /* SearchPipe */]]
+    })
+], EbookModule);
+
+//# sourceMappingURL=ebook.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/ebook/ebook.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EbookService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_toPromise__ = __webpack_require__("../../../../rxjs/add/operator/toPromise.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_toPromise__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var EbookService = (function () {
+    function EbookService(http) {
+        this.http = http;
+        this.url = 'https://api.github.com/repos/yshhuang/my-ebook/issues';
+        this.access_token = 'access_token=a9b629f6f6ce7b5548a89c33f927ed5506aaa358';
+        this.clientID = 'c672f12df24bae512eae';
+        this.clientSecret = 'b9f45436b0fab444d3a9abc42c2ba7c900a11918';
+    }
+    EbookService.prototype.getCode = function () {
+        return this.http.
+            get('https://github.com/login/oauth/authorize?client_id=' + this.clientID)
+            .toPromise()
+            .then(function (res) { return res; });
+    };
+    return EbookService;
+}());
+EbookService = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]) === "function" && _a || Object])
+], EbookService);
+
+var _a;
+//# sourceMappingURL=ebook.service.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/global/filter/search.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchPipe; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var SearchPipe = (function () {
+    function SearchPipe() {
+    }
+    SearchPipe.prototype.transform = function (items, searchText) {
+        if (!items) {
+            return [];
+        }
+        if (!searchText) {
+            return items;
+        }
+        searchText = searchText.toLowerCase();
+        return items.filter(function (it) {
+            return it.toLowerCase().includes(searchText);
+        });
+    };
+    return SearchPipe;
+}());
+SearchPipe = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* Pipe */])({
+        name: 'search'
+    })
+], SearchPipe);
+
+//# sourceMappingURL=search.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/global/global.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -819,7 +1035,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/global/nav/nav.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg fixed-top navbar-transparent\"\n    color-on-scroll=\"500\">\n    <div class=\"container\">\n        <div class=\"navbar-translate\">\n            <a class=\"navbar-brand\" href=\"https://www.yshhuang.top\">自由之翼</a>\n            <button class=\"navbar-toggler navbar-burger\" type=\"button\"\n                data-toggle=\"collapse\" data-target=\"#navbarToggler\"\n                aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\"\n                aria-label=\"Toggle navigation\" (click)=\"sidebarToggle()\">\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n            </button>\n        </div>\n        <div class=\"navbar-collapse\" id=\"navbarToggler\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Follow us on\n                        Twitter\" data-placement=\"bottom\"\n                        href=\"https://twitter.com/yshhuang1\" target=\"_blank\">\n                        <i class=\"fa fa-twitter\"></i>\n                        <p class=\"d-lg-none\">Twitter</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Like us on\n                        Facebook\" data-placement=\"bottom\"\n                        href=\"https://www.facebook.com/yshhuang\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-facebook-square\"></i>\n                        <p class=\"d-lg-none\">Facebook</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Follow us on\n                        Instagram\" data-placement=\"bottom\"\n                        href=\"https://www.instagram.com/CreativeTimOfficial\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-instagram\"></i>\n                        <p class=\"d-lg-none\">Instagram</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Star on GitHub\"\n                        data-placement=\"bottom\"\n                        href=\"https://github.com/yshhuang/yshhuang.github.io\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-github\"></i>\n                        <p class=\"d-lg-none\">GitHub</p>\n                    </a>\n                </li>\n                <!-- <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a\n                        href=\"http://pk2-angular.creative-tim.com/documentation/tutorial\"\n                        class=\"nav-link\" target=\"_blank\"><i class=\"nc-icon\n                            nc-book-bookmark\"></i> Documentation</a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"isHome()\">\n                    <a\n                        href=\"https://www.creative-tim.com/product/paper-kit-2-pro-angular?ref=pk2-angular-free-local\"\n                        target=\"_blank\" class=\"btn btn-danger btn-round\">Upgrade\n                        to Pro</a>\n                </li> -->\n                <li class=\"nav-item\" *ngIf=\"!isHome()\">\n                    <a [routerLink]=\"['/home']\" *ngIf=\"!isDocumentation()\"\n                        class=\"nav-link\"><i class=\"nc-icon nc-layout-11\"></i>Components</a>\n                    <a [routerLink]=\"['/home']\" *ngIf=\"isDocumentation()\"\n                        class=\"nav-link\">Back to Kit</a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"isDocumentation()\">\n                    <a\n                        href=\"https://github.com/yshhuang/yshhuang.github.io/issues?ref=pk2-free-local\"\n                        target=\"_blank\" class=\"nav-link\">Have an issue</a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n<router-outlet></router-outlet>"
+module.exports = "<nav class=\"navbar navbar-expand-lg fixed-top navbar-transparent\"\n    color-on-scroll=\"500\">\n    <div class=\"container\">\n        <div class=\"navbar-translate\">\n            <a class=\"navbar-brand\" href=\"\">自由之翼</a>\n            <button class=\"navbar-toggler navbar-burger\" type=\"button\"\n                data-toggle=\"collapse\" data-target=\"#navbarToggler\"\n                aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\"\n                aria-label=\"Toggle navigation\" (click)=\"sidebarToggle()\">\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n            </button>\n        </div>\n        <div class=\"navbar-collapse\" id=\"navbarToggler\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Follow us on\n                        Twitter\" data-placement=\"bottom\"\n                        href=\"https://twitter.com/yshhuang1\" target=\"_blank\">\n                        <i class=\"fa fa-twitter\"></i>\n                        <p class=\"d-lg-none\">Twitter</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Like us on\n                        Facebook\" data-placement=\"bottom\"\n                        href=\"https://www.facebook.com/yshhuang\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-facebook-square\"></i>\n                        <p class=\"d-lg-none\">Facebook</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Follow us on\n                        Instagram\" data-placement=\"bottom\"\n                        href=\"https://www.instagram.com/CreativeTimOfficial\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-instagram\"></i>\n                        <p class=\"d-lg-none\">Instagram</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Star on GitHub\"\n                        data-placement=\"bottom\"\n                        href=\"https://github.com/yshhuang/yshhuang.github.io\"\n                        target=\"_blank\">\n                        <i class=\"fa fa-github\"></i>\n                        <p class=\"d-lg-none\">GitHub</p>\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -845,7 +1061,7 @@ var NavComponent = (function () {
     function NavComponent(location, element) {
         this.location = location;
         this.element = element;
-        this.sidebarVisible = false;
+        this.sidebarVisible = true;
     }
     NavComponent.prototype.ngOnInit = function () {
         var navbar = this.element.nativeElement;
@@ -854,8 +1070,8 @@ var NavComponent = (function () {
     NavComponent.prototype.sidebarOpen = function () {
         var toggleButton = this.toggleButton;
         var html = document.getElementsByTagName('html')[0];
-        // console.log(html);
-        // console.log(toggleButton, 'toggle');
+        console.log(html);
+        console.log(toggleButton, 'toggle');
         setTimeout(function () {
             toggleButton.classList.add('toggled');
         }, 500);
@@ -882,15 +1098,6 @@ var NavComponent = (function () {
     NavComponent.prototype.isHome = function () {
         var titlee = this.location.prepareExternalUrl(this.location.path());
         if (titlee === '/home') {
-            return true;
-        }
-        else {
-            return false;
-        }
-    };
-    NavComponent.prototype.isDocumentation = function () {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        if (titlee === '/documentation') {
             return true;
         }
         else {
@@ -972,7 +1179,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/home/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-header\" data-parallax=\"true\" style=\"background-image:\n    url('./assets/img/daniel-olahh.jpg');\">\n    <div class=\"filter\"></div>\n    <div class=\"container\">\n        <div class=\"motto text-center\">\n            <h1>涉江而过，芙蓉千朵。诗也简单，心也简单。 </h1>\n            <h3>——席慕蓉</h3>\n            <br />\n            <!-- <a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" class=\"btn\n                btn-outline-neutral btn-round\"><i class=\"fa fa-play\"></i>Watch\n                video</a>\n            <button type=\"button\" class=\"btn btn-outline-neutral btn-round\">Download</button> -->\n        </div>\n    </div>\n</div>\n<div class=\"main\">\n    <div class=\"section text-center\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-8 mr-auto ml-auto\">\n                    <h2 class=\"title\">关于本站</h2>\n                    <h5 class=\"description\">This is the paragraph where you can\n                        write more details about your product. Keep you user\n                        engaged by providing meaningful information. Remember\n                        that by this time, the user is curious, otherwise he\n                        wouldn't scroll to get here. Add a button if you want\n                        the user to see more.</h5>\n                    <br>\n                    <a href=\"#paper-kit\" class=\"btn btn-danger btn-round\">See\n                        Details</a>\n                </div>\n            </div>\n            <br/><br/>\n                    <div class=\"row\">\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-paper\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">博客</h4>\n                                    <p class=\"description\">Spend your time\n                                        generating new ideas. You don't have to\n                                        think of implementing.</p>\n                                    <a href=\"https://blog.yshhuang.top/\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-image\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">绘画</h4>\n                                    <p>Larger, yet dramatically thinner. More\n                                        powerful, but remarkably power\n                                        efficient.</p>\n                                    <a href=\"painting\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-bag-16\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">Statistics</h4>\n                                    <p>Choose from a veriety of many colors\n                                        resembling sugar paper pastels.</p>\n                                    <a href=\"#pkp\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-zoom-split\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">Delightful design</h4>\n                                    <p>Find unique and handmade delightful\n                                        designs related items directly from our\n                                        sellers.</p>\n                                    <a href=\"#pkp\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"section section-dark text-center\">\n                <div class=\"container\">\n                    <h2 class=\"title\">关于作者</h2>\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/clem-onojeghuo-3.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Henry Ford</h4>\n                                            <h6 class=\"card-category\">Product\n                                                Manager</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        Teamwork is so important that it is\n                                        virtually impossible for you to reach\n                                        the heights of your capabilities or make\n                                        the money that you want without becoming\n                                        very good at it.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/joe-gardner-2.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Sophie West</h4>\n                                            <h6 class=\"card-category\">Designer</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        A group becomes a team when each member\n                                        is sure enough of himself and his\n                                        contribution to praise the skill of the\n                                        others. No one can whistle a symphony.\n                                        It takes an orchestra to play it.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/erik-lucatero-2.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Robert Orben</h4>\n                                            <h6 class=\"card-category\">Developer</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        The strength of the team is each\n                                        individual member. The strength of each\n                                        member is the team. If you can laugh\n                                        together, you can work together, silence\n                                        isn’t golden, it’s deadly.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"section landing-section\">\n                <div class=\"container\">\n                    <div class=\"row\">\n                        <div class=\"col-md-8 mr-auto ml-auto\">\n                            <h2 class=\"text-center\">Keep in touch?</h2>\n                            <form class=\"contact-form\">\n                                <div class=\"row\">\n                                    <div class=\"col-md-6\">\n                                        <label>Name</label>\n                                        <div class=\"input-group\"\n                                            [ngClass]=\"{'input-group-focus':focus===true}\">\n                                            <div class=\"input-group-prepend\">\n                                                <span class=\"input-group-text\"><i\n                                                        class=\"nc-icon\n                                                        nc-single-02\"></i></span>\n                                            </div>\n                                            <input type=\"text\"\n                                                class=\"form-control\"\n                                                placeholder=\"Name\"\n                                                (focus)=\"focus=true\"\n                                                (blur)=\"focus=false\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-md-6\">\n                                        <label>Email</label>\n                                        <div class=\"input-group\"\n                                            [ngClass]=\"{'input-group-focus':focus1===true}\">\n                                            <div class=\"input-group-prepend\">\n                                                <span class=\"input-group-text\">\n                                                    <i class=\"nc-icon\n                                                        nc-email-85\"></i></span>\n                                            </div>\n                                            <input type=\"text\"\n                                                class=\"form-control\"\n                                                placeholder=\"Email\"\n                                                (focus)=\"focus1=true\"\n                                                (blur)=\"focus1=false\">\n                                        </div>\n                                    </div>\n                                </div>\n                                <label>Message</label>\n                                <textarea class=\"form-control\" rows=\"4\"\n                                    placeholder=\"Tell us your thoughts and\n                                    feelings...\"></textarea>\n                                <div class=\"row\">\n                                    <div class=\"col-md-4 mr-auto ml-auto\">\n                                        <button class=\"btn btn-danger btn-lg\n                                            btn-fill\">Send Message</button>\n                                    </div>\n                                </div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n"
+module.exports = "<div class=\"page-header\" data-parallax=\"true\" style=\"background-image:\n    url('./assets/img/daniel-olahh.jpg');\">\n    <div class=\"filter\"></div>\n    <div class=\"container\">\n        <div class=\"motto text-center\">\n            <h1>涉江而过，芙蓉千朵。诗也简单，心也简单。 </h1>\n            <h3>——席慕蓉</h3>\n            <br />\n            <!-- <a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" class=\"btn\n                btn-outline-neutral btn-round\"><i class=\"fa fa-play\"></i>Watch\n                video</a>\n            <button type=\"button\" class=\"btn btn-outline-neutral btn-round\">Download</button> -->\n        </div>\n    </div>\n</div>\n<div class=\"main\">\n    <div class=\"section text-center\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-8 mr-auto ml-auto\">\n                    <h2 class=\"title\">关于本站</h2>\n                    <h5 class=\"description\">This is the paragraph where you can\n                        write more details about your product. Keep you user\n                        engaged by providing meaningful information. Remember\n                        that by this time, the user is curious, otherwise he\n                        wouldn't scroll to get here. Add a button if you want\n                        the user to see more.</h5>\n                    <br>\n                    <a href=\"#paper-kit\" class=\"btn btn-danger btn-round\">See\n                        Details</a>\n                </div>\n            </div>\n            <br/><br/>\n                    <div class=\"row\">\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-paper\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">博客</h4>\n                                    <p class=\"description\">Spend your time\n                                        generating new ideas. You don't have to\n                                        think of implementing.</p>\n                                    <a href=\"https://blog.yshhuang.top/\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-image\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">绘画</h4>\n                                    <p>Larger, yet dramatically thinner. More\n                                        powerful, but remarkably power\n                                        efficient.</p>\n                                    <a href=\"painting\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-book-bookmark\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">电子书</h4>\n                                    <p>Choose from a veriety of many colors\n                                        resembling sugar paper pastels.</p>\n                                    <a href=\"book/list\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3\">\n                            <div class=\"info\">\n                                <div class=\"icon icon-danger\">\n                                    <i class=\"nc-icon nc-zoom-split\"></i>\n                                </div>\n                                <div class=\"description\">\n                                    <h4 class=\"info-title\">Delightful design</h4>\n                                    <p>Find unique and handmade delightful\n                                        designs related items directly from our\n                                        sellers.</p>\n                                    <a href=\"#pkp\" class=\"btn btn-link\n                                        btn-danger\">See more</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"section section-dark text-center\">\n                <div class=\"container\">\n                    <h2 class=\"title\">关于作者</h2>\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/clem-onojeghuo-3.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Henry Ford</h4>\n                                            <h6 class=\"card-category\">Product\n                                                Manager</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        Teamwork is so important that it is\n                                        virtually impossible for you to reach\n                                        the heights of your capabilities or make\n                                        the money that you want without becoming\n                                        very good at it.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/joe-gardner-2.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Sophie West</h4>\n                                            <h6 class=\"card-category\">Designer</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        A group becomes a team when each member\n                                        is sure enough of himself and his\n                                        contribution to praise the skill of the\n                                        others. No one can whistle a symphony.\n                                        It takes an orchestra to play it.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"col-md-4\">\n                            <div class=\"card card-profile card-plain\">\n                                <div class=\"card-avatar\">\n                                    <a href=\"#avatar\"><img\n                                            src=\"./assets/img/faces/erik-lucatero-2.jpg\"\n                                            alt=\"...\"></a>\n                                </div>\n                                <div class=\"card-block\">\n                                    <a href=\"#paper-kit\">\n                                        <div class=\"author\">\n                                            <h4 class=\"card-title\">Robert Orben</h4>\n                                            <h6 class=\"card-category\">Developer</h6>\n                                        </div>\n                                    </a>\n                                    <p class=\"card-description text-center\">\n                                        The strength of the team is each\n                                        individual member. The strength of each\n                                        member is the team. If you can laugh\n                                        together, you can work together, silence\n                                        isn’t golden, it’s deadly.\n                                    </p>\n                                </div>\n                                <div class=\"card-footer text-center\">\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-twitter\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-google-plus\"></i></a>\n                                    <a href=\"#pablo\" class=\"btn btn-link\n                                        btn-just-icon btn-neutral\"><i class=\"fa\n                                            fa-linkedin\"></i></a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"section landing-section\">\n                <div class=\"container\">\n                    <div class=\"row\">\n                        <div class=\"col-md-8 mr-auto ml-auto\">\n                            <h2 class=\"text-center\">Keep in touch?</h2>\n                            <form class=\"contact-form\">\n                                <div class=\"row\">\n                                    <div class=\"col-md-6\">\n                                        <label>Name</label>\n                                        <div class=\"input-group\"\n                                            [ngClass]=\"{'input-group-focus':focus===true}\">\n                                            <div class=\"input-group-prepend\">\n                                                <span class=\"input-group-text\"><i\n                                                        class=\"nc-icon\n                                                        nc-single-02\"></i></span>\n                                            </div>\n                                            <input type=\"text\"\n                                                class=\"form-control\"\n                                                placeholder=\"Name\"\n                                                (focus)=\"focus=true\"\n                                                (blur)=\"focus=false\">\n                                        </div>\n                                    </div>\n                                    <div class=\"col-md-6\">\n                                        <label>Email</label>\n                                        <div class=\"input-group\"\n                                            [ngClass]=\"{'input-group-focus':focus1===true}\">\n                                            <div class=\"input-group-prepend\">\n                                                <span class=\"input-group-text\">\n                                                    <i class=\"nc-icon\n                                                        nc-email-85\"></i></span>\n                                            </div>\n                                            <input type=\"text\"\n                                                class=\"form-control\"\n                                                placeholder=\"Email\"\n                                                (focus)=\"focus1=true\"\n                                                (blur)=\"focus1=false\">\n                                        </div>\n                                    </div>\n                                </div>\n                                <label>Message</label>\n                                <textarea class=\"form-control\" rows=\"4\"\n                                    placeholder=\"Tell us your thoughts and\n                                    feelings...\"></textarea>\n                                <div class=\"row\">\n                                    <div class=\"col-md-4 mr-auto ml-auto\">\n                                        <button class=\"btn btn-danger btn-lg\n                                            btn-fill\">Send Message</button>\n                                    </div>\n                                </div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n"
 
 /***/ }),
 
@@ -1364,8 +1571,13 @@ UtilComponent = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: true
+    production: false
 };
 //# sourceMappingURL=environment.js.map
 

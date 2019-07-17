@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./string.component.css']
 })
 export class StringComponent implements OnInit {
-  
+
   constructor() { }
 
   ngOnInit() {
