@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { EbookService } from '../ebook.service';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Ebook } from '../ebook';
+
 
 @Component({
   selector: 'app-ebook-list',
@@ -8,6 +11,7 @@ import { EbookService } from '../ebook.service';
 })
 export class EbookListComponent implements OnInit {
   searchText = '';
+  clientID = 'c672f12df24bae512eae';
 
   characters = [
     'Finn the human',
@@ -18,17 +22,35 @@ export class EbookListComponent implements OnInit {
     'Beemo2'
   ];
 
+  ebooks: Ebook[];
+
   constructor(
-    private ebookservice: EbookService
+    private router: Router,
+    private route: ActivatedRoute,
+    private ebookservice: EbookService,
   ) { }
 
   ngOnInit() {
-    this.getCode();
+    this.getEbooks();
+    // window.open('https://github.com/login/oauth/authorize?client_id=' + this.clientID + '&redirect_uri=https://www.yshhuang.top/home',
+    //   '_self');
+    // console.log(123);
+    // window.open('https://www.baidu.com');
+    // this.router.navigateByUrl('https://github.com/login/oauth/authorize?client_id=' + this.clientID);
+    // this.getCode();
   }
 
   getCode() {
     this.ebookservice.getCode().then(code => {
       console.log(code);
     });
+  }
+
+  getEbooks() {
+    this.ebookservice.getEbooks().then(ebooks => {
+      this.ebooks = ebooks;
+      console.log(this.ebooks);
+    });
+    console.log(this.ebooks);
   }
 }

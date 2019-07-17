@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-
 import { Headers, Http } from '@angular/http';
-
 import 'rxjs/add/operator/toPromise';
+
+import { Ebook } from './ebook';
 
 @Injectable()
 export class EbookService {
@@ -16,9 +16,13 @@ export class EbookService {
 
 
   getCode(): Promise<any> {
-    return this.http.
-      get('https://github.com/login/oauth/authorize?client_id=' + this.clientID)
+    return this.http.get('https://github.com/login/oauth/authorize?client_id=' + this.clientID)
       .toPromise()
       .then(res => res as any);
+  }
+
+  getEbooks(): Promise<Ebook[]> {
+    return this.http.get('https://api.github.com/repos/yshhuang/my-ebook/issues?access_token=eaceb08d8f1018872c804e10ca0b27f409fb9bcc')
+      .toPromise().then(res => res.json() as Ebook[]);
   }
 }
