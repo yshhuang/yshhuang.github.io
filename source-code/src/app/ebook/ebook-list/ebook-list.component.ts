@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EbookService } from '../ebook.service';
 
 @Component({
   selector: 'app-ebook-list',
@@ -17,9 +18,17 @@ export class EbookListComponent implements OnInit {
     'Beemo2'
   ];
 
-  constructor() { }
+  constructor(
+    private ebookservice: EbookService
+  ) { }
 
   ngOnInit() {
+    this.getCode();
   }
 
+  getCode() {
+    this.ebookservice.getCode().then(code => {
+      console.log(code);
+    });
+  }
 }
