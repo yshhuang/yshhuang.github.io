@@ -769,7 +769,7 @@ SidebarComponent = __decorate([
 /***/ "../../../../../src/app/ebook/ebook-list/ebook-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-header\" style=\"background-image:\nurl('./assets/img/login-image.jpg');\">\n\n<input [(ngModel)]=\"searchText\" >\n<ul>\n  <li *ngFor=\"let c of characters | search : searchText\">\n    {{c}}\n  </li>\n</ul>\n\n</div>"
+module.exports = "<div class=\"page-header\" style=\"background-image:\nurl('./assets/img/login-image.jpg');\">\n\n<input [(ngModel)]=\"searchText\" >\n<ul>\n  <li *ngFor=\"let c of ebooks | search : searchText\">\n    {{c.title}}\n  </li>\n</ul>\n<!-- <a class=\"btn btn-light btn-sm\" href=\"https://github.com/login/oauth/authorize?client_id=c672f12df24bae512eae\">\n  <svg height=\"14\" class=\"octicon octicon-mark-github\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"14\"\n       aria-hidden=\"true\">\n      <path fill-rule=\"evenodd\"\n            d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z\"></path>\n  </svg>\n  <span style=\"font-size: 16px;\">登录</span>\n</a> -->\n</div>"
 
 /***/ }),
 
@@ -798,6 +798,7 @@ module.exports = module.exports.toString();
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EbookListComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ebook_service__ = __webpack_require__("../../../../../src/app/ebook/ebook.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -809,10 +810,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var EbookListComponent = (function () {
-    function EbookListComponent(ebookservice) {
+    function EbookListComponent(router, route, ebookservice) {
+        this.router = router;
+        this.route = route;
         this.ebookservice = ebookservice;
         this.searchText = '';
+        this.clientID = 'c672f12df24bae512eae';
         this.characters = [
             'Finn the human',
             'Jake the dog',
@@ -823,12 +828,26 @@ var EbookListComponent = (function () {
         ];
     }
     EbookListComponent.prototype.ngOnInit = function () {
-        this.getCode();
+        this.getEbooks();
+        // window.open('https://github.com/login/oauth/authorize?client_id=' + this.clientID + '&redirect_uri=https://www.yshhuang.top/home',
+        //   '_self');
+        // console.log(123);
+        // window.open('https://www.baidu.com');
+        // this.router.navigateByUrl('https://github.com/login/oauth/authorize?client_id=' + this.clientID);
+        // this.getCode();
     };
     EbookListComponent.prototype.getCode = function () {
         this.ebookservice.getCode().then(function (code) {
             console.log(code);
         });
+    };
+    EbookListComponent.prototype.getEbooks = function () {
+        var _this = this;
+        this.ebookservice.getEbooks().then(function (ebooks) {
+            _this.ebooks = ebooks;
+            console.log(_this.ebooks);
+        });
+        console.log(this.ebooks);
     };
     return EbookListComponent;
 }());
@@ -838,10 +857,10 @@ EbookListComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/ebook/ebook-list/ebook-list.component.html"),
         styles: [__webpack_require__("../../../../../src/app/ebook/ebook-list/ebook-list.component.scss")]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ebook_service__["a" /* EbookService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ebook_service__["a" /* EbookService */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* ActivatedRoute */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__ebook_service__["a" /* EbookService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ebook_service__["a" /* EbookService */]) === "function" && _c || Object])
 ], EbookListComponent);
 
-var _a;
+var _a, _b, _c;
 //# sourceMappingURL=ebook-list.component.js.map
 
 /***/ }),
@@ -919,10 +938,13 @@ var EbookService = (function () {
         this.clientSecret = 'b9f45436b0fab444d3a9abc42c2ba7c900a11918';
     }
     EbookService.prototype.getCode = function () {
-        return this.http.
-            get('https://github.com/login/oauth/authorize?client_id=' + this.clientID)
+        return this.http.get('https://github.com/login/oauth/authorize?client_id=' + this.clientID)
             .toPromise()
             .then(function (res) { return res; });
+    };
+    EbookService.prototype.getEbooks = function () {
+        return this.http.get('https://api.github.com/repos/yshhuang/my-ebook/issues?access_token=eaceb08d8f1018872c804e10ca0b27f409fb9bcc')
+            .toPromise().then(function (res) { return res.json(); });
     };
     return EbookService;
 }());
@@ -961,7 +983,7 @@ var SearchPipe = (function () {
         }
         searchText = searchText.toLowerCase();
         return items.filter(function (it) {
-            return it.toLowerCase().includes(searchText);
+            return it['title'].toLowerCase().includes(searchText);
         });
     };
     return SearchPipe;
