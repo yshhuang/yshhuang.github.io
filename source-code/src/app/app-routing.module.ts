@@ -16,6 +16,7 @@ const homeRoutes: Routes = [
     { path: 'blog', component: BlogComponent },
     { path: 'string', component: StringComponent },
     { path: 'painting', component: PaintingComponent },
+    { path: 'album', component: AlbumComponent },
     { path: 'book/list', component: EbookListComponent }
 ];
 
